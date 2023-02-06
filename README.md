@@ -2,6 +2,8 @@
 
 Um "jogo" simples feito completamente em texto. No "jogo" você poderá lutar contra criaturas, adquirir experiência, modificar seus atributos, e talvez equipar itens e gastar dinheiro na cidade.
 
+O jogo seguirá uma estética visual toda baseada em antigos softwares(como Zork, Ultima, e etc).
+
 ## Escopo do projeto
 
 ### Home
