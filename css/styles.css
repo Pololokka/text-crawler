@@ -8,6 +8,10 @@
 
 /*game*/
 @import url(footerGame.css);
+@import url(gameNome.css);
+@import url(gameClasse.css);
+@import url(gameCombate.css);
+@import url(menu.css);
 
 /*fonte*/
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
@@ -56,4 +60,13 @@ body {
 
 .link:hover {
     color: var(--cor-fonte-hover-1);
+}
+
+.botao {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
 }

@@ -1,0 +1,13 @@
+.menu__container {
+    width: 100%;
+    border-bottom: 2px solid var(--cor-fonte-1);
+    border-top: 2px solid var(--cor-fonte-1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.botao__acao {
+    margin-left: 0.3em;
+}

@@ -1,0 +1,17 @@
+.nome__container {
+    display: flex;
+    gap: 1px;
+    margin-bottom: 1em;
+}
+
+.nome__input {
+    background-color: var(--cor-fundo-1);
+    width: 10%;
+}
+
+.nome__input:focus {
+    border: 0; 
+    border-width: 0; 
+    box-shadow: none;
+    outline: none;
+}

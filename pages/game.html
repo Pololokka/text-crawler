@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/icon-2.png" type="image/x-icon">
     <title>Text Crawler</title>
 </head>
 <body>
@@ -23,11 +24,128 @@
         </h1>
     </header>
 
+    <main>
+        <div class="nome__container">
+            <label for="nome" class="texto">Insira seu nome:</label>
+            <input type="text" name="nome" class="texto nome__input" autofocus>
+        </div>
+
+        <div class="classe__container">
+            <p class="texto texto__classe">Clique em sua classe para escolhe-la:</p>
+            <div class="classe__conteudo">
+                <input type="button" value="Bárbaro" class="texto botao link">
+                <p class="texto classe__descricao">Um poderoso combatente que luta sem armadura e com grandes armas. Utilizando de força bruta para destruir seus oponentes antes que eles possam reagir</p>
+                <div class="atributos__container">
+                    <div class="atributo atributo__força">
+                        <p class="texto classe__atributo">Força: </p>
+                        <p class="texto classe__atributo">4</p>
+                    </div>
+                    <div class="atributo atributo__destreza">
+                        <p class="texto classe__atributo">Destreza: </p>
+                        <p class="texto classe__atributo">2</p>
+                    </div>
+                    <div class="atributo atributo__constituicao">
+                        <p class="texto classe__atributo">Constituição: </p>
+                        <p class="texto classe__atributo">3</p>
+                    </div>
+                    <div class="atributo atributo__agilidade">
+                        <p class="texto classe__atributo">Agilidade: </p>
+                        <p class="texto classe__atributo">1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="classe__conteudo">
+                <input type="button" value="Guerreiro" class="texto botao link">
+                <p class="texto classe__descricao">Proficiente com diversas técnicas de combate, o guerreiro utiliza de sua expertise para vencer seus inimigos de maneira eficiente</p>
+                <div class="atributos__container">
+                    <div class="atributo atributo__força">
+                        <p class="texto classe__atributo">Força: </p>
+                        <p class="texto classe__atributo">3</p>
+                    </div>
+                    <div class="atributo atributo__destreza">
+                        <p class="texto classe__atributo">Destreza: </p>
+                        <p class="texto classe__atributo">1</p>
+                    </div>
+                    <div class="atributo atributo__constituicao">
+                        <p class="texto classe__atributo">Constituição: </p>
+                        <p class="texto classe__atributo">4</p>
+                    </div>
+                    <div class="atributo atributo__agilidade">
+                        <p class="texto classe__atributo">Agilidade: </p>
+                        <p class="texto classe__atributo">2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="classe__conteudo">
+                <input type="button" value="Ladino" class="texto botao link">
+                <p class="texto classe__descricao">Um habitante das sombras, o ladino chega sem ser visto, e ataca utilizando de suas habilidades furtivas</p>
+                <div class="atributos__container">
+                    <div class="atributo atributo__força">
+                        <p class="texto classe__atributo">Força: </p>
+                        <p class="texto classe__atributo">2</p>
+                    </div>
+                    <div class="atributo atributo__destreza">
+                        <p class="texto classe__atributo">Destreza: </p>
+                        <p class="texto classe__atributo">3</p>
+                    </div>
+                    <div class="atributo atributo__constituicao">
+                        <p class="texto classe__atributo">Constituição: </p>
+                        <p class="texto classe__atributo">1</p>
+                    </div>
+                    <div class="atributo atributo__agilidade">
+                        <p class="texto classe__atributo">Agilidade: </p>
+                        <p class="texto classe__atributo">4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="combate__container">
+            <div class="ataque__container">
+                <p class="texto ataque__combate">Fulaninho ataca!</p>
+                <p class="texto ataque__dano">Causa 10 de dano!</p>
+            </div>
+            <div class="ataque__container">
+                <p class="texto ataque__combate">Fulaninho ataca!</p>
+                <p class="texto ataque__dano">Causa 10 de dano!</p>
+            </div>
+        </section>
+
+        <section class="menu__container">
+            <div class="menu__acoes">
+                <input type="button" value="Atacar" class="link texto botao botao__acao">
+                <input type="button" value="Beber poção" class="link texto botao botao__acao">
+            </div>
+            <div class="menu__inventario">
+                <div class="atributos__container">
+                    <div class="atributo atributo__força">
+                        <p class="texto classe__atributo">Força: </p>
+                        <p class="texto classe__atributo">2</p>
+                    </div>
+                    <div class="atributo atributo__destreza">
+                        <p class="texto classe__atributo">Destreza: </p>
+                        <p class="texto classe__atributo">3</p>
+                    </div>
+                    <div class="atributo atributo__constituicao">
+                        <p class="texto classe__atributo">Constituição: </p>
+                        <p class="texto classe__atributo">1</p>
+                    </div>
+                    <div class="atributo atributo__agilidade">
+                        <p class="texto classe__atributo">Agilidade: </p>
+                        <p class="texto classe__atributo">4</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="rodape--container">
-        <p class="rodape__texto--game">Site desenvolvido por Vitor Bulbovas:</p>
-        <a href="https://www.instagram.com/vitorbulbovas/" target="_blank" class="rodape__texto--game link">Instagram</a>
-        <a href="https://github.com/Pololokka" target="_blank" class="rodape__texto--game link">Git</a>
-        <a href="https://www.linkedin.com/in/vitor-bulbovas-852348187/" target="_blank" class="rodape__texto--game link">Linkedin</a>
+        <div class="links">
+            <p class="rodape__texto--game">Site desenvolvido por Vitor Bulbovas:</p>
+            <a href="https://www.instagram.com/vitorbulbovas/" target="_blank" class="rodape__texto--game link">Instagram</a>
+            <a href="https://github.com/Pololokka" target="_blank" class="rodape__texto--game link">Git</a>
+            <a href="https://www.linkedin.com/in/vitor-bulbovas-852348187/" target="_blank" class="rodape__texto--game link">Linkedin</a>
+            <a href="../index.html" class="rodape__texto--game link">Home</a>
+        </div>
     </footer>
     
 </body>
