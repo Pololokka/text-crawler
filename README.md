@@ -14,7 +14,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 
 #### Roadmap
 
-- [ ] Criar o index
+- [X] Criar o index
 - [ ] Criar a página de jogo
 - [ ] Adicionar a funcionalidade de ataque
 - [ ] Adicionar a customização de nome

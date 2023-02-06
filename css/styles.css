@@ -6,6 +6,9 @@
 @import url(plot.css);
 @import url(footer.css);
 
+/*game*/
+@import url(footerGame.css);
+
 /*fonte*/
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
@@ -14,11 +17,13 @@
     
     /*estilo 1*/
     --cor-fonte-1: #006400;
+    --cor-fonte-hover-1: #008000;
     --cor-fundo-1: #000000;
 
     --fonte-grande: 6rem;
     --font-media: 4rem;
-    --font-pequena: 2rem; 
+    --font-pequena: 2rem;
+    --font-menor: 1.2rem; 
 }
 
 body {
@@ -37,4 +42,18 @@ body {
 
 .texto {
     font-size: var(--font-pequena);
+}
+
+.ascii {
+    text-align: center;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: var(--cor-fonte-hover-1);
 }
