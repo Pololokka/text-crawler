@@ -1,0 +1,9 @@
+.cabecalho__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__cabecalho {
+    margin: 2em 0;
+}

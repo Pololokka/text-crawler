@@ -1,6 +1,11 @@
 /*reset*/
 @import url(reset.css);
 
+/*geral*/
+@import url(header.css);
+@import url(plot.css);
+@import url(footer.css);
+
 /*fonte*/
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
@@ -11,7 +16,9 @@
     --cor-fonte-1: #006400;
     --cor-fundo-1: #000000;
 
-    --tamanho-titulo: 3rem; 
+    --fonte-grande: 6rem;
+    --font-media: 4rem;
+    --font-pequena: 2rem; 
 }
 
 body {
@@ -20,7 +27,14 @@ body {
     font-family: var(--fonte);
 }
 
-
 .titulo {
-    font-size: var(--tamanho-titulo);
+    font-size: var(--fonte-grande);
+}
+
+.sub-titulo {
+    font-size: var(--font-media);
+}
+
+.texto {
+    font-size: var(--font-pequena);
 }
