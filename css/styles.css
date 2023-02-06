@@ -1,0 +1,26 @@
+/*reset*/
+@import url(reset.css);
+
+/*fonte*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --fonte: 'VT323', monospace;
+    
+    /*estilo 1*/
+    --cor-fonte-1: #006400;
+    --cor-fundo-1: #000000;
+
+    --tamanho-titulo: 3rem; 
+}
+
+body {
+    background-color: var(--cor-fundo-1);
+    color: var(--cor-fonte-1);
+    font-family: var(--fonte);
+}
+
+
+.titulo {
+    font-size: var(--tamanho-titulo);
+}
