@@ -27,7 +27,12 @@
     <main>
         <div class="nome__container">
             <label for="nome" class="texto">Insira seu nome:</label>
-            <input type="text" name="nome" class="texto nome__input" autofocus>
+            <input type="text" name="nome" class="texto nome__input" maxlength="20" autofocus>
+        </div>
+
+        <div class="genero__container">
+            <label for="genero" class="texto">Insira seu gênero(M/F):</label>
+            <input type="text" name="genero" class="texto genero__input" maxlength="1">
         </div>
 
         <div class="classe__container">
@@ -91,6 +96,7 @@
             <div class="menu__pontos">
                 <p class="texto menu__pontos--nivel">Nível 1</p>
                 <p class="texto menu__pontos--exp">EXP: 0/100</p>
+                <p class="texto menu__pontos--hp">HP: 50/50</p>
             </div>
             <div class="menu__inventario">
                 <p class="texto menu__inventario--equip">Arma atual: Mãos</p>

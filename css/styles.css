@@ -9,6 +9,7 @@
 /*game*/
 @import url(footerGame.css);
 @import url(gameNome.css);
+@import url(gameGenero.css);
 @import url(gameClasse.css);
 @import url(gameCombate.css);
 @import url(menu.css);

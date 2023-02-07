@@ -1,16 +1,17 @@
-.nome__container {
+.genero__container {
     display: flex;
     gap: 1px;
     margin-bottom: 1em;
 }
 
-.nome__input {
+.genero__input {
     background-color: var(--cor-fundo-1);
-    width: 20%;
+    width: 2%;
     border-bottom: 2px solid var(--cor-fonte-1);
+    text-transform: uppercase;
 }
 
-.nome__input:focus {
+.genero__input:focus {
     border: 0; 
     border-width: 0; 
     box-shadow: none;
