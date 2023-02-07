@@ -1,4 +1,6 @@
 .rodape--container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 2em 1em;
 }

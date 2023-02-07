@@ -24,53 +24,7 @@
         </h1>
     </header>
 
-    <main>
-        <div class="nome__container">
-            <label for="nome" class="texto">Insira seu nome:</label>
-            <input type="text" name="nome" class="texto nome__input" maxlength="20" autofocus data-nome>
-        </div>
-
-        <div class="genero__container">
-            <label for="genero" class="texto">Insira seu gênero(M/F):</label>
-            <input type="text" name="genero" class="texto genero__input" maxlength="1" data-genero>
-        </div>
-
-        <div class="classe__container">
-            <p class="texto texto__classe">Clique em sua classe para escolhe-la:</p>
-            <div class="classe__conteudo">
-                <input type="button" value="Bárbaro" class="texto botao link" data-classe>
-                <p class="texto classe__descricao">Um poderoso combatente que luta sem armadura e com grandes armas. Utilizando de força bruta para destruir seus oponentes antes que eles possam reagir</p>
-                <div class="atributos__container">
-                    <p class="texto classe__atributo">Força: 4</p>
-                    <p class="texto classe__atributo">Destreza: 2</p>
-                    <p class="texto classe__atributo">Constituição: 3</p>
-                    <p class="texto classe__atributo">Agilidade: 1</p>
-                </div>
-            </div>
-            <div class="classe__conteudo">
-                <input type="button" value="Guerreiro" class="texto botao link" data-classe>
-                <p class="texto classe__descricao">Proficiente com diversas técnicas de combate, o guerreiro utiliza de sua expertise para vencer seus inimigos de maneira eficiente</p>
-                <div class="atributos__container">
-                    <p class="texto classe__atributo">Força: 3</p>
-                    <p class="texto classe__atributo">Destreza: 1</p>
-                    <p class="texto classe__atributo">Constituição: 4</p>
-                    <p class="texto classe__atributo">Agilidade: 2</p>
-                </div>
-            </div>
-            <div class="classe__conteudo">
-                <input type="button" value="Ladino" class="texto botao link" data-classe>
-                <p class="texto classe__descricao">Um habitante das sombras, o ladino chega sem ser visto, e ataca utilizando de suas habilidades furtivas</p>
-                <div class="atributos__container">
-                    <p class="texto classe__atributo">Força: 2</p>
-                    <p class="texto classe__atributo">Destreza: 3</p>
-                    <p class="texto classe__atributo">Constituição: 1</p>
-                    <p class="texto classe__atributo">Agilidade: 4</p>
-                </div>
-            </div>
-
-            <input type="button" value="Iniciar" class="link texto botao" data-inicia>
-        </div>
-
+    <main data-main>
         <section class="combate__container">
             <div class="ataque__container">
                 <p class="texto ataque__combate">Fulaninho ataca!</p>
@@ -108,6 +62,30 @@
     </main>
 
     <footer class="rodape--container">
+        <section class="menu__container">
+            <div class="menu__acoes">
+                <input type="button" value="Atacar" class="link texto botao botao__acao">
+                <input type="button" value="Beber poção" class="link texto botao botao__acao">
+            </div>
+            <div class="menu__atributos">
+                <div class="atributos__container">
+                    <p class="texto classe__atributo">Força: 1</p>
+                    <p class="texto classe__atributo">Destreza: 1</p>
+                    <p class="texto classe__atributo">Constituição: 1</p>
+                    <p class="texto classe__atributo">Agilidade: 1</p>
+                </div>
+            </div>
+            <div class="menu__pontos">
+                <p class="texto menu__pontos--nivel">Nível 1</p>
+                <p class="texto menu__pontos--exp">EXP: 0/100</p>
+                <p class="texto menu__pontos--hp">HP: 50/50</p>
+            </div>
+            <div class="menu__inventario">
+                <p class="texto menu__inventario--equip">Arma atual: Mãos</p>
+                <p class="texto menu__inventaio--pocao">Quantidade de poções: 0</p>
+            </div>
+        </section>
+
         <div class="links">
             <p class="rodape__texto--game">Site desenvolvido por Vitor Bulbovas:</p>
             <a href="https://www.instagram.com/vitorbulbovas/" target="_blank" class="rodape__texto--game link">Instagram</a>
@@ -117,8 +95,9 @@
         </div>
     </footer>
 
-    <script src="../app/pegaInfo.js" type="module"></script>
-    <script src="../app/setaTela.js" type="module"></script>
+    <script src="../app/telaInicial.js"></script>
+    <script src="../app/pegaInfo.js"></script>
+    <script src="../app/setaTela.js"></script>
     
 </body>
 </html>
