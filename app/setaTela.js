@@ -7,7 +7,7 @@ function printaTela() {
     let generoJogo;
     nome == "" ? nome = "Astrash" : nome = nome;
     genero == "m" || genero == "M" ? generoJogo = "o" : generoJogo = "a";
-    classe == undefined ? classe = "Bárbaro" : classe = classe;
+    classe == undefined ? classe = "Bárbara" : classe = classe;
 
     const telaPrincipal = document.createElement("div");
     telaPrincipal.innerHTML = `
