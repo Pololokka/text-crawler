@@ -1,29 +1,45 @@
-const nomeInput = document.querySelector("[data-nome]");
-const generoInput = document.querySelector("[data-genero]");
-const classeInput = document.querySelectorAll("[data-classe]");
-
-
-function pegaNome() {    
+function pegaNome(nomeInput) {
+    nomeInput = document.querySelector("[data-nome]");    
     nomeInput.addEventListener('blur', () => {
         nomeSelec = document.querySelector("[data-nome]").value;
-        nomeSelec == "" ? console.log("Inizad") : console.log(nomeSelec);
+        nomeSelec == "" ? console.log("Astrash") : console.log(nomeSelec);
+        return nomeSelec;
     })
 }
 
-function pegaGenero() {
+function pegaGenero(generoInput) {
+    generoInput = document.querySelector("[data-genero]");
     generoInput.addEventListener('blur', () => {
         generoSelec = document.querySelector("[data-genero]").value;
-        console.log(generoSelec);
-        generoSelec == "m" || generoSelec == "M" ? console.log("masculino") : console.log("feminino"); 
+        generoSelec == "m" || generoSelec == "M" ? console.log("masculino") : console.log("feminino");
+        return generoSelec; 
     })
 }
 
-function pegaClasse() {
+function pegaClasse(classeInput) {
+    classeInput = document.querySelectorAll("[data-classe]");
     classeInput.forEach(elemento => elemento.addEventListener('click', classeSelec => {
         console.log(classeSelec.target.value);
+        return classeSelec.target.value;
     }))
 }
 
-pegaNome();
-pegaGenero();
-pegaClasse();
+function teste() {
+    var x = pegaNome();
+    var y = pegaGenero();
+    var z = pegaClasse();
+
+    console.log(x);
+    console.log(y);
+    console.log(z);
+}
+
+export const pegaInfo = {
+    pegaNome,
+    pegaGenero,
+    pegaClasse
+}
+
+// pegaNome();
+// pegaGenero();
+// pegaClasse();
