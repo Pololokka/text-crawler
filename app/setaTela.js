@@ -17,5 +17,3 @@ function printaTela() {
     principal.innerHTML = ""
     principal.appendChild(telaPrincipal);
 }
-
-inicia();
