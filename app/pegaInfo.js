@@ -19,9 +19,8 @@ function pegaGenero() {
 }
 
 function pegaClasse() {
-    classeInput.forEach(elemento => elemento.addEventListener('click', () => {
-        classeSelec = document.querySelector("[data-classe]").value;
-        console.log(classeSelec);
+    classeInput.forEach(elemento => elemento.addEventListener('click', classeSelec => {
+        console.log(classeSelec.target.value);
     }))
 }
 
