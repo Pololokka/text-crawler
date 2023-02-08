@@ -17,7 +17,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [x] Criar o index
 - [x] Criar a página de jogo
 - [ ] Adicionar a funcionalidade de ataque
-- [ ] Adicionar a customização de nome
+- [x] Adicionar a customização de nome
 - [ ] Adicionar consumíveis
 - [ ] Adicionar atributos
 - [ ] Adicionar EXP
