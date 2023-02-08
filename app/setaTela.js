@@ -1,3 +1,5 @@
+var setupPronto = false;
+
 function inicia() {
     const start = document.querySelector("[data-inicia]");
     start.addEventListener('click', () => printaTela())
@@ -11,9 +13,11 @@ function printaTela() {
 
     const telaPrincipal = document.createElement("div");
     telaPrincipal.innerHTML = `
-        <p class="texto">${nome}, ${generoJogo} ${classe}, seja bem vind${generoJogo} ao mundo de Sveen!
+        <p class="texto">..${nome}, ${generoJogo} ${classe}, seja bem vind${generoJogo} ao mundo de Sveen!
     `
 
     principal.innerHTML = ""
     principal.appendChild(telaPrincipal);
+    setupPronto = true;
+    console.log(setupPronto);
 }
