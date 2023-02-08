@@ -18,10 +18,10 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [x] Criar a página de jogo
 - [x] Adicionar a funcionalidade de ataque
 - [x] Adicionar a customização de nome
-- [ ] Adicionar funcionalidade de dano
+- [x] Adicionar funcionalidade de dano
 - [ ] Adicionar morte
 - [ ] Adicionar consumíveis
-- [ ] Adicionar atributos
+- [ ] Adicionar atributos(~~Constituição~~, ~~Força~~, Agilidade, Destreza)
 - [ ] Adicionar EXP
 - [ ] Adicionar level up
 - [ ] Adicionar ganho e gasto de pontos de atributo

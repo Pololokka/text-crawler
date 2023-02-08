@@ -12,7 +12,9 @@ function atacar(btnAtaque) {
 }
 
 function ataquePlayer() {
-    danoPlayer = Math.ceil(Math.random() * 10);
+    danoPlayer = Math.ceil(Math.random() * 10) + bonusAtk;
+    console.log(bonusAtk)
+    vidaAtualInimigo -= danoPlayer;
 
     const telaDanoPlayer = document.createElement("div");
     telaDanoPlayer.innerHTML += `
@@ -29,7 +31,7 @@ function ataqueInimigo() {
 
     const telaDanoInimigo = document.createElement("div");
     telaDanoInimigo.innerHTML += `
-        <p class="texto">..Dummy, ataca! Causa ${danoInimigo} de dano!
+        <p class="texto">..Dummy(${vidaAtualInimigo}/${vidaTotalInimigo}), ataca! Causa ${danoInimigo} de dano!
     `
     principal.appendChild(telaDanoInimigo);
 }

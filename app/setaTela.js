@@ -13,6 +13,7 @@ function printaTela() {
 
     calculoInicial();
     atualizaAtributo();
+    atualizaBonus();
     calculaVida();
     
     const telaPrincipal = document.createElement("div");
