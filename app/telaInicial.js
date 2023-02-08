@@ -63,7 +63,7 @@ function telaClasse() {
             <input type="button" value="Iniciar" class="link texto botao" data-inicia>
         </div>
     `
-
+    pegaClasse();
     inicia();
 }
 
