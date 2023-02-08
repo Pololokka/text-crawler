@@ -19,6 +19,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [x] Adicionar a funcionalidade de ataque
 - [x] Adicionar a customização de nome
 - [ ] Adicionar funcionalidade de dano
+- [ ] Adicionar morte
 - [ ] Adicionar consumíveis
 - [ ] Adicionar atributos
 - [ ] Adicionar EXP
@@ -28,6 +29,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 ##### Opcionais 
 
 - [ ] Adicionar temas(diferentes padrões de cor)
+- [ ] Adicionar sub-classes(especializações)
 - [ ] Adicionar ouro
 - [ ] Adicionar cidade
 - [ ] Adicionar comércio

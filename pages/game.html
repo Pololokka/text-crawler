@@ -37,24 +37,24 @@
         </section>
     </main>
 
-    <footer class="rodape--container">
+    <footer class="rodape--container" data-footer>
         <section class="menu__container">
             <div class="menu__acoes">
                 <input type="button" value="Atacar" class="link texto botao botao__acao" data-ataque>
-                <input type="button" value="Beber poção" class="link texto botao botao__acao">
+                <input type="button" value="Beber poção" class="link texto botao botao__acao" data-pocao>
             </div>
             <div class="menu__atributos">
                 <div class="atributos__container">
-                    <p class="texto classe__atributo">Força: 1</p>
-                    <p class="texto classe__atributo">Destreza: 1</p>
-                    <p class="texto classe__atributo">Constituição: 1</p>
-                    <p class="texto classe__atributo">Agilidade: 1</p>
+                    <p class="texto classe__atributo" data-forca>Força: 1</p>
+                    <p class="texto classe__atributo" data-destreza>Destreza: 1</p>
+                    <p class="texto classe__atributo" data-constituicao>Constituição: 1</p>
+                    <p class="texto classe__atributo" data-agilidade>Agilidade: 1</p>
                 </div>
             </div>
             <div class="menu__pontos">
                 <p class="texto menu__pontos--nivel">Nível 1</p>
                 <p class="texto menu__pontos--exp">EXP: 0/100</p>
-                <p class="texto menu__pontos--hp">HP: 50/50</p>
+                <p class="texto menu__pontos--hp" data-vida>HP: 0/0</p>
             </div>
             <div class="menu__inventario">
                 <p class="texto menu__inventario--equip">Arma atual: Mãos</p>
@@ -75,6 +75,8 @@
     <script src="../app/pegaInfo.js"></script>
     <script src="../app/setaTela.js"></script>
     <script src="../app/ataque.js"></script>
+    <script src="../app/geraAtributo.js"></script>
+    <script src="../app/calculaAtributo.js"></script>
     
 </body>
 </html>

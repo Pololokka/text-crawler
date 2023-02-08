@@ -12,7 +12,7 @@ function atacar(btnAtaque) {
 }
 
 function ataquePlayer() {
-    danoPlayer = Math.floor(Math.random() * 11);
+    danoPlayer = Math.ceil(Math.random() * 10);
 
     const telaDanoPlayer = document.createElement("div");
     telaDanoPlayer.innerHTML += `
@@ -23,7 +23,9 @@ function ataquePlayer() {
 }
 
 function ataqueInimigo() {
-    danoInimigo = Math.floor(Math.random() * 10);
+    danoInimigo = Math.ceil(Math.random() * 9);
+    vidaAtual -= danoInimigo;
+    calculaVida();
 
     const telaDanoInimigo = document.createElement("div");
     telaDanoInimigo.innerHTML += `

@@ -32,30 +32,30 @@ function telaClasse() {
             <input type="button" value="Bárbar${generoJogo}" class="texto botao link" data-classe>
             <p class="texto classe__descricao">Este poderoso combatente luta sem armadura e com grandes armas. Utilizando de força bruta para destruir seus oponentes antes que eles possam reagir</p>
             <div class="atributos__container">
-                <p class="texto classe__atributo">Força: 4</p>
-                <p class="texto classe__atributo">Destreza: 2</p>
-                <p class="texto classe__atributo">Constituição: 3</p>
-                <p class="texto classe__atributo">Agilidade: 1</p>
+                <p class="texto classe__atributo">Força: +${bonusMaior}</p>
             </div>
         </div>
         <div class="classe__conteudo">
             <input type="button" value="Guerreir${generoJogo}" class="texto botao link" data-classe>
             <p class="texto classe__descricao">Proficiente com diversas técnicas de combate, o guerreiro utiliza de sua expertise para vencer seus inimigos de maneira eficiente</p>
             <div class="atributos__container">
-                <p class="texto classe__atributo">Força: 3</p>
-                <p class="texto classe__atributo">Destreza: 1</p>
-                <p class="texto classe__atributo">Constituição: 4</p>
-                <p class="texto classe__atributo">Agilidade: 2</p>
+                <p class="texto classe__atributo">Força: +${bonusMenor}</p>
+                <p class="texto classe__atributo">Constituição: +${bonusMenor}</p>
             </div>
         </div>
         <div class="classe__conteudo">
             <input type="button" value="Ladin${generoJogo}" class="texto botao link" data-classe>
             <p class="texto classe__descricao">Um habitante das sombras, o ladino chega sem ser visto, e ataca utilizando de suas habilidades furtivas</p>
             <div class="atributos__container">
-                <p class="texto classe__atributo">Força: 2</p>
-                <p class="texto classe__atributo">Destreza: 3</p>
-                <p class="texto classe__atributo">Constituição: 1</p>
-                <p class="texto classe__atributo">Agilidade: 4</p>
+                <p class="texto classe__atributo">Agilidade: +${bonusMaior}</p>
+            </div>
+        </div>
+        <div class="classe__conteudo">
+            <input type="button" value="Assassin${generoJogo}" class="texto botao link" data-classe>
+            <p class="texto classe__descricao">Um ser discreto, o assassino pode se esconder a plena vista, e dar golpes sorrateiros e eficazes, a fim de acabar com o seu alvo o mais rápido possível</p>
+            <div class="atributos__container">
+            <p class="texto classe__atributo">Destreza: +${bonusMenor}</p>
+                <p class="texto classe__atributo">Agilidade: +${bonusMenor}</p>
             </div>
         </div>
 

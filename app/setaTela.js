@@ -11,6 +11,10 @@ function printaTela() {
     genero == "m" || genero == "M" ? generoJogo = "o" : generoJogo = "a";
     classe == undefined ? classe = "Bárbara" : classe = classe;
 
+    calculoInicial();
+    atualizaAtributo();
+    calculaVida();
+    
     const telaPrincipal = document.createElement("div");
     telaPrincipal.innerHTML = `
         <p class="texto">..${nome}, ${generoJogo} ${classe}, seja bem vind${generoJogo} ao mundo de Sveen!
