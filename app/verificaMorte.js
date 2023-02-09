@@ -28,5 +28,4 @@ function morteInimigo(){
         <p class="texto">..Mas ${nomeInimigo} surge para te enfrentar!</p>
     `
     principal.appendChild(telaMorteInimigo);
-    vidaAtualInimigo = vidaTotalInimigo;
 }
