@@ -31,13 +31,13 @@ function ataquePlayer() {
 }
 
 function ataqueInimigo() {
-    danoInimigo = Math.ceil(Math.random() * 9);
+    danoInimigo = Math.ceil(Math.random() * 9) + forcaInimigo;
     vidaAtual -= danoInimigo;
     calculaVida();
 
     const telaDanoInimigo = document.createElement("div");
     telaDanoInimigo.innerHTML += `
-        <p class="texto">..Dummy(${vidaAtualInimigo}/${vidaTotalInimigo}), ataca! Causa ${danoInimigo} de dano!
+        <p class="texto">..${nomeInimigo}(${vidaAtualInimigo}/${vidaTotalInimigo}), ataca! Causa ${danoInimigo} de dano!
     `
     principal.appendChild(telaDanoInimigo);
 }

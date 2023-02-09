@@ -17,10 +17,15 @@ function chamaMorte() {
 
 function morteInimigo(){
     const telaMorteInimigo = document.createElement("div");
-        telaMorteInimigo.innerHTML += `
+    telaMorteInimigo.innerHTML += `
         <p class="texto">.
-        <p class="texto">..Dummy morreu!</p>
-        <p class="texto">..Mas Dummy surge para te enfrentar!</p>
+        <p class="texto">..${nomeInimigo} morreu!</p>
+    `
+    principal.appendChild(telaMorteInimigo);
+    geraInimigo();
+
+    telaMorteInimigo.innerHTML += `
+        <p class="texto">..Mas ${nomeInimigo} surge para te enfrentar!</p>
     `
     principal.appendChild(telaMorteInimigo);
     vidaAtualInimigo = vidaTotalInimigo;
