@@ -21,20 +21,24 @@ function atualizaAtributo() {
     `
 }
 
-function calculoInicial() {
-    if(classe == "Bárbaro" || classe == "Bárbara"){
-        forcaTotal += bonusMaior;
-    }  
-    if(classe == "Guerreiro" || classe == "Guerreira"){
-        forcaTotal += bonusMenor;
-        consTotal += bonusMenor;
-    }
-    if(classe == "Ladino" || classe == "Ladina"){
-        agiTotal += bonusMaior;
-    }
-    if(classe == "Assassino" || classe == "Assassina"){
-        dexTotal += bonusMenor;
-        agiTotal += bonusMenor;
+function calculoInicial(){
+    switch(classe) {
+        case "Guerreiro":
+        case "Guerreira":
+            forcaTotal += bonusMenor;
+            consTotal += bonusMenor;
+            break;
+        case "Ladino":
+        case "Ladina":
+            agiTotal += bonusMaior;
+            break;
+        case "Assassino":
+        case "Assassina":
+            dexTotal += bonusMenor;
+            agiTotal += bonusMenor;
+            break;
+        default:
+            forcaTotal += bonusMaior;
     }
 }
 

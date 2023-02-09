@@ -3,17 +3,20 @@ var danoInimigo;
 
 function atacar(btnAtaque) {
     btnAtaque = document.querySelector("[data-ataque]")
-    btnAtaque.addEventListener('click', () => {
-        if(setupPronto) {
+     btnAtaque.addEventListener('click', () => {
+        if(setupPronto && !playerMorto) {
             ataquePlayer();
             ataqueInimigo();
+            if(vidaAtual <= 0) {
+                chamaMorte();
+                playerMorto = true;
+            }
         }
     })
 }
 
 function ataquePlayer() {
     danoPlayer = Math.ceil(Math.random() * 10) + bonusAtk;
-    console.log(bonusAtk)
     vidaAtualInimigo -= danoPlayer;
 
     const telaDanoPlayer = document.createElement("div");
@@ -35,5 +38,7 @@ function ataqueInimigo() {
     `
     principal.appendChild(telaDanoInimigo);
 }
+
+//verificar no ataque do player se ele tá morto. verificar no ataque do inimigo se o player morreu depois do ataque
 
 atacar();
