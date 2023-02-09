@@ -12,4 +12,16 @@ function chamaMorte() {
         <p class="texto">..que sucumbiu nessas terras esquecidas...</p>
     `
     principal.appendChild(telaMortePlayer);
+    playerMorto = true;
+}
+
+function morteInimigo(){
+    const telaMorteInimigo = document.createElement("div");
+        telaMorteInimigo.innerHTML += `
+        <p class="texto">.
+        <p class="texto">..Dummy morreu!</p>
+        <p class="texto">..Mas Dummy surge para te enfrentar!</p>
+    `
+    principal.appendChild(telaMorteInimigo);
+    vidaAtualInimigo = vidaTotalInimigo;
 }

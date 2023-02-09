@@ -6,11 +6,14 @@ function atacar(btnAtaque) {
      btnAtaque.addEventListener('click', () => {
         if(setupPronto && !playerMorto) {
             ataquePlayer();
-            ataqueInimigo();
-            if(vidaAtual <= 0) {
+            
+            if(vidaAtualInimigo >= 0)
+                ataqueInimigo();
+            else
+                morteInimigo();
+            
+            if(vidaAtual <= 0)
                 chamaMorte();
-                playerMorto = true;
-            }
         }
     })
 }
