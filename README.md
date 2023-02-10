@@ -10,7 +10,7 @@ O jogo seguirá uma estética visual toda baseada em antigos softwares(como Zork
 Página introdutória que fala brevemente sobre o Text Crawler
 
 ### Jogo
-Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontecerá nessa tela.
+Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontece nessa tela.
 
 #### Roadmap
 
@@ -28,7 +28,8 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 
 ##### Opcionais 
 
-- [ ] Fazer gerador de inimigos
+- [x] Fazer gerador de inimigos
+- [ ] Fazer armas
 - [ ] Adicionar temas(diferentes padrões de cor)
 - [ ] Adicionar SFX e ST
 - [ ] Adicionar sub-classes(especializações)

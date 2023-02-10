@@ -1,13 +1,18 @@
-var vidaAtual = 50 + consTotal*2;
-var vidaTotal = 50 + consTotal*2;
+var vidaTotal = 50 + consTotal*4;
+var vidaAtual = vidaTotal
+
 var bonusAtk = forcaTotal;
 var bonusAgi = agiTotal;
 var bonusDex = dexTotal;
+
 var expAtual = 0;
 var expTotal = 100;
 var pontoAtributo = 0;
+var nivelPlayer = 1;
 
 function calculaVida(){
+    vidaTotal = 50 + consTotal*4;
+    console.log(vidaTotal);
     vida = document.querySelector("[data-vida]").innerHTML = `
         HP: ${vidaAtual}/${vidaTotal}
     `
@@ -20,7 +25,6 @@ function atualizaExp(){
 }
 
 function atualizaLvl(){
-    var nivelPlayer = 1;
     let generoJogo;
 
     genero == "m" || genero == "M" ? generoJogo = "o" : generoJogo = "a";
@@ -97,6 +101,7 @@ function gastaPonto() {
                 Pontos: ${pontoAtributo}
             `
             atualizaBonus();
+            calculaVida();
         } 
     });
 

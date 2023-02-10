@@ -11,6 +11,21 @@ function telaInfo() {
             <label for="genero" class="texto">Insira seu gênero(M/F):</label>
             <input type="text" name="genero" class="texto genero__input" maxlength="1" data-genero>
         </div>
+        <p class="texto">Explicação dos atributos:</p>
+        <p class="texto">.</p>
+        <p class="texto">FORÇA: aumenta o dano causado</p>
+        <p class="texto">DESTREZA: aumenta a chance de esquiva</p>
+        <p class="texto">CONSTITUIÇÃO: aumenta a vida máxima</p>
+        <p class="texto">AGILIDADE: aumenta a chance de acerto</p>
+        <p class="texto">.</p>
+        <p class="texto">Subindo de nível, você ganhará pontos que podem ser utilizados</p>
+        <p class="texto">para aumentar seus atributos. Para gastar um ponto de atributo</p>
+        <p class="texto">basta clicar abaixo, no atributo que deseja melhorar</p>
+        <p class="texto">.</p>
+        <p class="texto">Após a fala do Pescador, basta clicar em ATACAR para seguir com o jogo. </p>
+        <p class="texto">Os inimigos são infinitos. Quando um morrer, outro surgirá para</p>
+        <p class="texto">te desafiar.</p>
+        <div>
             <input type="button" value="Avançar" class="link texto botao" data-avanco>
         </div>
     `
@@ -27,7 +42,7 @@ function telaClasse() {
 
     principal.innerHTML = `
         <div class="classe__container">
-        <p class="texto texto__classe">Clique em sua classe para escolhe-la:</p>
+        <p class="texto texto__classe">Clique em sua Classe para escolhe-la, e depois clique em INICIAR:</p>
         <div class="classe__conteudo">
             <input type="button" value="Bárbar${generoJogo}" class="texto botao link" data-classe>
             <p class="texto classe__descricao">Este poderoso combatente luta sem armadura e com grandes armas. Utilizando de força bruta para destruir seus oponentes antes que eles possam reagir</p>

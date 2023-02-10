@@ -45,7 +45,7 @@ function ataquePlayer() {
 function ataqueInimigo() {
     chance = Math.floor(Math.random() * 21) + Math.floor(dexInimigo/2)
     if(chance >= 8 + agiTotal){
-        danoInimigo = Math.ceil(Math.random() * 9) + forcaInimigo;
+        danoInimigo = Math.ceil(Math.random() * dadoAtaqueInimigo) + forcaInimigo;
         vidaAtual -= danoInimigo;
         calculaVida();
 
