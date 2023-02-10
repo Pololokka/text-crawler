@@ -6,7 +6,7 @@ var forcaInimigo = 0;
 var dexInimigo = 0;
 var agiInimigo = 0;
 
-var modExp = 90;
+var modExp = 100;
 
 var nomeInimigo = "Dummy";
 

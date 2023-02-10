@@ -8,7 +8,7 @@ function atacar(btnAtaque) {
         if(setupPronto && !playerMorto) {
             ataquePlayer();
             
-            if(vidaAtualInimigo >= 0)
+            if(vidaAtualInimigo > 0)
                 ataqueInimigo();
             else
                 morteInimigo();

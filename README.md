@@ -23,8 +23,8 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [x] Adicionar consumíveis
 - [x] Adicionar atributos
 - [x] Adicionar EXP
-- [ ] Adicionar level up
-- [ ] Adicionar ganho e gasto de pontos de atributo
+- [x] Adicionar level up
+- [x] Adicionar ganho e gasto de pontos de atributo
 
 ##### Opcionais 
 

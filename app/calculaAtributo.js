@@ -5,6 +5,7 @@ var bonusAgi = agiTotal;
 var bonusDex = dexTotal;
 var expAtual = 0;
 var expTotal = 100;
+var pontoAtributo = 0;
 
 function calculaVida(){
     vida = document.querySelector("[data-vida]").innerHTML = `
@@ -23,6 +24,11 @@ function atualizaLvl(){
     let generoJogo;
 
     genero == "m" || genero == "M" ? generoJogo = "o" : generoJogo = "a";
+    
+    pontoAtributo += 1;
+    pontoAtr = document.querySelector("[data-atr]").innerHTML = `
+        Pontos: ${pontoAtributo}
+    `
     nivelPlayer += 1;
     nivel = document.querySelector("[data-lvl]").innerHTML = `
         Nível ${nivelPlayer}
@@ -43,3 +49,71 @@ function atualizaBonus(){
     bonusAgi = agiTotal;
     bonusDex = dexTotal;
 }
+
+//devia ter feito com forEach, mas agora eu não tenho como refatorar o código
+
+function gastaPonto() {
+    forca = document.querySelector("[data-forca]");
+    destreza = document.querySelector("[data-destreza]");
+    constituicao = document.querySelector("[data-constituicao]");
+    agilidade = document.querySelector("[data-agilidade]");
+
+    forca.addEventListener('click', () => {
+        if(pontoAtributo > 0){
+            forcaTotal++;
+            pontoAtributo--;
+            forca = document.querySelector("[data-forca]").innerHTML = `
+                Força: ${forcaTotal}
+            `
+            pontoAtr = document.querySelector("[data-atr]").innerHTML = `
+                Pontos: ${pontoAtributo}
+            `
+            atualizaBonus();
+            console.log(bonusAtk);
+        }
+    });
+
+    destreza.addEventListener('click', () => {
+        if(pontoAtributo > 0){
+            dexTotal++;
+            pontoAtributo--;
+            destreza = document.querySelector("[data-destreza]").innerHTML = `
+                Destreza: ${dexTotal}
+            `
+            pontoAtr = document.querySelector("[data-atr]").innerHTML = `
+                Pontos: ${pontoAtributo}
+            `
+            atualizaBonus();
+        }  
+    });
+
+    constituicao.addEventListener('click', () => {
+        if(pontoAtributo > 0){
+            consTotal++;
+            pontoAtributo--;
+            constituicao = document.querySelector("[data-constituicao]").innerHTML = `
+                Constituição: ${consTotal}
+            `
+            pontoAtr = document.querySelector("[data-atr]").innerHTML = `
+                Pontos: ${pontoAtributo}
+            `
+            atualizaBonus();
+        } 
+    });
+
+    agilidade.addEventListener('click', () => {
+        if(pontoAtributo > 0){
+            agiTotal++;
+            pontoAtributo--;
+            agilidade = document.querySelector("[data-agilidade]").innerHTML = `
+                Agilidade: ${agiTotal}
+            `
+            pontoAtr = document.querySelector("[data-atr]").innerHTML = `
+                Pontos: ${pontoAtributo}
+            `
+            atualizaBonus();
+        } 
+    });
+}
+
+gastaPonto();
