@@ -29,6 +29,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 ##### Opcionais 
 
 - [ ] Adicionar temas(diferentes padrões de cor)
+- [ ] Adicionar SFX e ST
 - [ ] Adicionar sub-classes(especializações)
 - [ ] Adicionar ouro
 - [ ] Adicionar cidade

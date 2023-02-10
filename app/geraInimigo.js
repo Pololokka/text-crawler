@@ -4,6 +4,7 @@ var consInimigo = 1;
 var forcaInimigo = 0;
 var dexInimigo = 0;
 var agiInimigo = 0;
+var modExp = 1;
 
 var nomeInimigo = "Dummy";
 

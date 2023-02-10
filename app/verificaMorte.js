@@ -26,6 +26,8 @@ function morteInimigo(){
         <p class="texto">..${nomeInimigo} deixa ${lootPocao} poções de cura!</p>
     `
     principal.appendChild(telaMorteInimigo);
+    expAtual += Math.floor(Math.random() * 10) + modExp;
+    atualizaExp();
     geraInimigo();
 
     telaMorteInimigo.innerHTML += `
