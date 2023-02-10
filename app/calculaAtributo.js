@@ -33,7 +33,7 @@ function atualizaLvl(){
     nivel = document.querySelector("[data-lvl]").innerHTML = `
         Nível ${nivelPlayer}
     `
-    expAtual = 0;
+    expAtual -= expTotal;
     expTotal += Math.floor(10 * nivelPlayer/2);
 
     const telaNivel = document.createElement("div");
