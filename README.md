@@ -20,7 +20,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [x] Adicionar a customização de nome
 - [x] Adicionar funcionalidade de dano
 - [x] Adicionar morte
-- [ ] Adicionar consumíveis
+- [x] Adicionar consumíveis
 - [x] Adicionar atributos
 - [ ] Adicionar EXP
 - [ ] Adicionar level up

@@ -64,6 +64,7 @@ function telaClasse() {
         </div>
     `
     pegaClasse();
+    atualizaQtaPocao();
     inicia();
 }
 
