@@ -16,10 +16,14 @@ function chamaMorte() {
 }
 
 function morteInimigo(){
+    var lootPocao = Math.floor(Math.random() * 3)
+    qtaPocao += lootPocao;
+    atualizaQtaPocao();
     const telaMorteInimigo = document.createElement("div");
     telaMorteInimigo.innerHTML += `
         <p class="texto">.
         <p class="texto">..${nomeInimigo} morreu!</p>
+        <p class="texto">..${nomeInimigo} deixa ${lootPocao} poções de cura!</p>
     `
     principal.appendChild(telaMorteInimigo);
     geraInimigo();
