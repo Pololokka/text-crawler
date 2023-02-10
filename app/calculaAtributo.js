@@ -69,7 +69,6 @@ function gastaPonto() {
                 Pontos: ${pontoAtributo}
             `
             atualizaBonus();
-            console.log(bonusAtk);
         }
     });
 
