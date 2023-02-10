@@ -22,12 +22,13 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [x] Adicionar morte
 - [x] Adicionar consumíveis
 - [x] Adicionar atributos
-- [ ] Adicionar EXP
+- [x] Adicionar EXP
 - [ ] Adicionar level up
 - [ ] Adicionar ganho e gasto de pontos de atributo
 
 ##### Opcionais 
 
+- [ ] Fazer gerador de inimigos
 - [ ] Adicionar temas(diferentes padrões de cor)
 - [ ] Adicionar SFX e ST
 - [ ] Adicionar sub-classes(especializações)

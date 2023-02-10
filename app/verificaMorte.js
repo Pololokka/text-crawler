@@ -27,6 +27,10 @@ function morteInimigo(){
     `
     principal.appendChild(telaMorteInimigo);
     expAtual += Math.floor(Math.random() * 10) + modExp;
+    if(expAtual >= expTotal){
+        atualizaLvl();
+    }
+    
     atualizaExp();
     geraInimigo();
 

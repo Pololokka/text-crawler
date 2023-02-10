@@ -18,6 +18,26 @@ function atualizaExp(){
     `
 }
 
+function atualizaLvl(){
+    var nivelPlayer = 1;
+    let generoJogo;
+
+    genero == "m" || genero == "M" ? generoJogo = "o" : generoJogo = "a";
+    nivelPlayer += 1;
+    nivel = document.querySelector("[data-lvl]").innerHTML = `
+        Nível ${nivelPlayer}
+    `
+    expAtual = 0;
+    expTotal += Math.floor(10 * nivelPlayer/2);
+
+    const telaNivel = document.createElement("div");
+    telaNivel.innerHTML += `
+        <p class="texto">.</p>
+        <p class="texto">..${nome}, ${generoJogo} ${classe}, subiu de nível!
+    `
+    principal.appendChild(telaNivel);
+}
+
 function atualizaBonus(){
     bonusAtk = forcaTotal;
     bonusAgi = agiTotal;

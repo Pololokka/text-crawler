@@ -9,7 +9,7 @@ function atualizaQtaPocao() {
 function tomaPocao() {
     const tomarPocao = document.querySelector("[data-pocao]");
     tomarPocao.addEventListener('click', () => {
-        if(setupPronto){
+        if(setupPronto && !playerMorto){
             if(vidaAtual < vidaTotal && qtaPocao > 0){
                 qtaPocao -= 1;
                 vidaAtual += Math.ceil(Math.random() * 6) *2;
