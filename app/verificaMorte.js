@@ -16,7 +16,7 @@ function chamaMorte() {
 }
 
 function morteInimigo(){
-    var lootPocao = Math.floor(Math.random() * 3)
+    var lootPocao = Math.floor(Math.random() * 3) + modPocao;
     qtaPocao += lootPocao;
     atualizaQtaPocao();
     const telaMorteInimigo = document.createElement("div");
@@ -38,4 +38,10 @@ function morteInimigo(){
         <p class="texto">..Mas ${nomeInimigo} surge para te enfrentar!</p>
     `
     principal.appendChild(telaMorteInimigo);
+
+    var lootArma = Math.floor(Math.random() * 6)
+    if(lootArma == 5){
+        geradorArma();
+        equiparArma();
+    }
 }

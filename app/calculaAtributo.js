@@ -29,7 +29,7 @@ function atualizaLvl(){
 
     genero == "m" || genero == "M" ? generoJogo = "o" : generoJogo = "a";
     
-    pontoAtributo += 1;
+    pontoAtributo += 2;
     pontoAtr = document.querySelector("[data-atr]").innerHTML = `
         Pontos: ${pontoAtributo}
     `

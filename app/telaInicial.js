@@ -18,13 +18,17 @@ function telaInfo() {
         <p class="texto">CONSTITUIÇÃO: aumenta a vida máxima</p>
         <p class="texto">AGILIDADE: aumenta a chance de acerto</p>
         <p class="texto">.</p>
+        <p class="texto">Armas com dano menor são fisicamente menores também, então são </p>
+        <p class="texto">mais fáceis de utilizar, e vão acertar seus inimigos mais vezes,</p>
+        <p class="texto">mas com a chance de causar menos dano que armas mais brutas</p>
+        <p class="texto">.</p>
         <p class="texto">Subindo de nível, você ganhará pontos que podem ser utilizados</p>
         <p class="texto">para aumentar seus atributos. Para gastar um ponto de atributo</p>
         <p class="texto">basta clicar abaixo, no atributo que deseja melhorar</p>
         <p class="texto">.</p>
         <p class="texto">Após a fala do Pescador, basta clicar em ATACAR para seguir com o jogo. </p>
         <p class="texto">Os inimigos são infinitos. Quando um morrer, outro surgirá para</p>
-        <p class="texto">te desafiar.</p>
+        <p class="texto">te desafiar</p>
         <div>
             <input type="button" value="Avançar" class="link texto botao" data-avanco>
         </div>

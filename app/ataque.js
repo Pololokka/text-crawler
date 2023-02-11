@@ -20,9 +20,12 @@ function atacar(btnAtaque) {
 }
 
 function ataquePlayer() {
-    chance = Math.floor(Math.random() * 21) + Math.floor(dexTotal/2)
+    chance = Math.floor(Math.random() * 21) + Math.floor(dexTotal/2) + bonusArmaAcerto
     if(chance >= 8 + agiInimigo){
-        danoPlayer = Math.ceil(Math.random() * 10) + bonusAtk;
+        danoPlayer = Math.ceil(Math.random() * dadoAtaquePlayer) + bonusAtk + bonusArmaDano;
+        if(danoPlayer <= 0)
+            danoPlayer = 0;
+        
         vidaAtualInimigo -= danoPlayer;
 
         const telaDanoPlayer = document.createElement("div");
