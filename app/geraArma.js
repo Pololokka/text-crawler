@@ -46,7 +46,7 @@ function geradorArma(){
     }
     else if(dadoGeraQualidade > 5 && dadoGeraQualidade <= 10){
         nomeQualidadeGerado = "velha";
-        bonusDanoGera;
+        bonusDanoGerado = 0;
     }
     else if(dadoGeraQualidade > 10 && dadoGeraQualidade <= 14){
         nomeQualidadeGerado = "usada";

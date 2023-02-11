@@ -12,7 +12,6 @@ var nivelPlayer = 1;
 
 function calculaVida(){
     vidaTotal = 50 + consTotal*4;
-    console.log(vidaTotal);
     vida = document.querySelector("[data-vida]").innerHTML = `
         HP: ${vidaAtual}/${vidaTotal}
     `
@@ -46,6 +45,7 @@ function atualizaLvl(){
         <p class="texto">..${nome}, ${generoJogo} ${classe}, subiu de nível!
     `
     principal.appendChild(telaNivel);
+    new Audio("../audio/level_up.mp3").play();
 }
 
 function atualizaBonus(){

@@ -12,8 +12,8 @@ function tomaPocao() {
         if(setupPronto && !playerMorto){
             if(vidaAtual < vidaTotal && qtaPocao > 0){
                 qtaPocao -= 1;
+                new Audio("../audio/poção.mp3").play();
                 vidaAtual += Math.ceil(Math.random() * 6) *2;
-                console.log(vidaAtual);
                 if(vidaAtual > vidaTotal)
                     vidaAtual = vidaTotal; 
                 calculaVida();

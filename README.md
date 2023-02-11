@@ -29,9 +29,9 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 ##### Opcionais 
 
 - [x] Fazer gerador de inimigos
-- [ ] Fazer armas
+- [x] Fazer armas
 - [ ] Adicionar temas(diferentes padrões de cor)
-- [ ] Adicionar SFX e ST
+- [x] Adicionar SFX e ST
 - [ ] Adicionar sub-classes(especializações)
 - [ ] Adicionar ouro
 - [ ] Adicionar cidade

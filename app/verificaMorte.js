@@ -13,6 +13,7 @@ function chamaMorte() {
     `
     principal.appendChild(telaMortePlayer);
     playerMorto = true;
+    new Audio("../audio/morte.mp3").play();
 }
 
 function morteInimigo(){
@@ -39,9 +40,10 @@ function morteInimigo(){
     `
     principal.appendChild(telaMorteInimigo);
 
-    var lootArma = Math.floor(Math.random() * 6)
-    if(lootArma == 5){
+    var lootArma = Math.floor(Math.random() * 5)
+    if(lootArma == 4){
         geradorArma();
         equiparArma();
+        new Audio("../audio/loot.mp3").play();
     }
 }
