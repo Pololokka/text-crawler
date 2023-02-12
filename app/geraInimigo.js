@@ -65,7 +65,7 @@ function geraInimigo() {
     }
     else if(dadoInimigo > 20 && dadoInimigo <= 23){
         consInimigo = 3 + nivelPlayer;
-        forcaInimigo = 1 + nivelPlayer;
+        forcaInimigo = 2 + nivelPlayer;
         dexInimigo = 1 + nivelPlayer;
         agiInimigo = 1 + nivelPlayer;
         modExp = 8 + nivelPlayer;
@@ -79,7 +79,7 @@ function geraInimigo() {
         consInimigo = 2 + nivelPlayer;
         forcaInimigo = 2 + nivelPlayer;
         dexInimigo = 1 + nivelPlayer;
-        agiInimigo = 1 + nivelPlayer;
+        agiInimigo = 2 + nivelPlayer;
         modExp = 8 + nivelPlayer;
         modPocao = 2;
         dadoAtaqueInimigo = 6;
@@ -88,7 +88,7 @@ function geraInimigo() {
         nomeInimigo = "Bugbear";
     }
     else if(dadoInimigo > 26 && dadoInimigo <= 29){
-        consInimigo = 2 + nivelPlayer;
+        consInimigo = 3 + nivelPlayer;
         forcaInimigo = 2 + nivelPlayer;
         dexInimigo = 2 + nivelPlayer;
         agiInimigo = 1 + nivelPlayer;
@@ -101,9 +101,9 @@ function geraInimigo() {
     }
     else if(dadoInimigo > 29 && dadoInimigo <= 31){
         consInimigo = 4 + nivelPlayer;
-        forcaInimigo = 2 + nivelPlayer;
-        dexInimigo = 2 + nivelPlayer;
-        agiInimigo = 2 + nivelPlayer;
+        forcaInimigo = 3 + nivelPlayer;
+        dexInimigo = 3 + nivelPlayer;
+        agiInimigo = 0 + nivelPlayer;
         modExp = 12 + nivelPlayer;
         modPocao = 3;
         dadoAtaqueInimigo = 6;
@@ -114,8 +114,8 @@ function geraInimigo() {
     else if(dadoInimigo > 31 && dadoInimigo <= 33){
         consInimigo = 2 + nivelPlayer;
         forcaInimigo = 4 + nivelPlayer;
-        dexInimigo = 1 + nivelPlayer;
-        agiInimigo = 1 + nivelPlayer;
+        dexInimigo = 2 + nivelPlayer;
+        agiInimigo = 0 + nivelPlayer;
         modExp = 15 + nivelPlayer;
         modPocao = 2;
         dadoAtaqueInimigo = 8;
@@ -124,7 +124,7 @@ function geraInimigo() {
         nomeInimigo = "Ghoul";
     }
     else if(dadoInimigo > 33 && dadoInimigo <= 35){
-        consInimigo = 1 + nivelPlayer;
+        consInimigo = 2 + nivelPlayer;
         forcaInimigo = 4 + nivelPlayer;
         dexInimigo = 3 + nivelPlayer;
         agiInimigo = 2 + nivelPlayer;
@@ -136,9 +136,9 @@ function geraInimigo() {
         nomeInimigo = "Warg";
     }
     else if(dadoInimigo == 36){
-        consInimigo = 1 + nivelPlayer;
+        consInimigo = 2 + nivelPlayer;
         forcaInimigo = 6 + nivelPlayer;
-        dexInimigo = 2 + nivelPlayer;
+        dexInimigo = 3 + nivelPlayer;
         agiInimigo = 2 + nivelPlayer;
         modExp = 40 + nivelPlayer;
         modPocao = 4;
@@ -148,10 +148,10 @@ function geraInimigo() {
         nomeInimigo = "Lich";
     }
     else if(dadoInimigo == 37){
-        consInimigo = 3 + nivelPlayer;
-        forcaInimigo = 6 + nivelPlayer;
+        consInimigo = 4 + nivelPlayer;
+        forcaInimigo = 7 + nivelPlayer;
         dexInimigo = 3 + nivelPlayer;
-        agiInimigo = 3 + nivelPlayer;
+        agiInimigo = 4 + nivelPlayer;
         modExp = 80 + nivelPlayer;
         modPocao = 6;
         dadoAtaqueInimigo = 10;

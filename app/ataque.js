@@ -21,7 +21,7 @@ function atacar(btnAtaque) {
 }
 
 function ataquePlayer() {
-    chance = Math.floor(Math.random() * 21) + Math.floor(dexTotal/2) + bonusArmaAcerto
+    chance = Math.floor(Math.random() * 21) + Math.floor(dexTotal) + bonusArmaAcerto
     if(chance >= 8 + agiInimigo){
         danoPlayer = Math.ceil(Math.random() * dadoAtaquePlayer) + bonusAtk + bonusArmaDano;
         if(danoPlayer <= 0)
@@ -48,10 +48,12 @@ function ataquePlayer() {
 
 function ataqueInimigo() {
     chance = Math.floor(Math.random() * 21) + Math.floor(dexInimigo/2)
+    calcArmadura = Math.floor(Math.random() * dadoDefesa) + bonusDefesa;
+    console.log(calcArmadura)
     if(chance >= 8 + agiTotal){
-        danoInimigo = Math.ceil(Math.random() * dadoAtaqueInimigo) + forcaInimigo - (Math.floor(Math.random() * dadoDefesa) - bonusDefesa);
+        danoInimigo = Math.ceil(Math.random() * dadoAtaqueInimigo) + forcaInimigo - calcArmadura;
         if(danoInimigo < 0)
-            danoInimigo = 0;
+            danoInimigo = 1;
 
         vidaAtual -= danoInimigo;
         if(vidaAtual < vidaTotal/4 && vidaAtual > 0)
