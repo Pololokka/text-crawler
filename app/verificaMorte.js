@@ -47,8 +47,8 @@ function morteInimigo(){
         new Audio("../audio/loot.mp3").play();
     }
 
-    var lootArmadura = Math.floor(Math.random() * 7)
-    if(lootArmadura == 6){
+    var lootArmadura = Math.floor(Math.random() * 6)
+    if(lootArmadura == 5){
         geradorArmadura()
         equiparArmadura()
         new Audio("../audio/loot.mp3").play();

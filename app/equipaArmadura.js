@@ -7,7 +7,7 @@ function equiparArmadura() {
     telaEquipamento.innerHTML += `
         <p class="texto">.
         <p class="texto">..O inimigo derrotado deixou:</p>
-        <p class="texto">..${nomeArmaduraGerada}(${dadoDefesaGerado}+${bonusDefesaGerado})
+        <p class="texto">..${nomeArmaduraGerada}(1d${dadoDefesaGerado}+${bonusDefesaGerado})
         <p class="texto">..Gostaria de usar essa armadura?</p>
         <p class="texto link" data-equipar-armadura>..EQUIPAR</p>
     `
@@ -20,7 +20,7 @@ function equiparArmadura() {
             dadoDefesa = dadoDefesaGerado;
             bonusDefesa = bonusDefesaGerado;
             equipamento = document.querySelector("[data-armor-equip]").innerHTML = `
-            Armadura atual: ${nomeArmadura}(${dadoDefesa}+${bonusDefesa})
+            Armadura atual: ${nomeArmadura}(1d${dadoDefesa}+${bonusDefesa})
             `
             principal.removeChild(telaEquipamento);
         })
