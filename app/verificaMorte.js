@@ -46,4 +46,11 @@ function morteInimigo(){
         equiparArma();
         new Audio("../audio/loot.mp3").play();
     }
+
+    var lootArmadura = Math.floor(Math.random() * 7)
+    if(lootArmadura == 6){
+        geradorArmadura()
+        equiparArmadura()
+        new Audio("../audio/loot.mp3").play();
+    }
 }

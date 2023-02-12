@@ -30,6 +30,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 
 - [x] Fazer gerador de inimigos
 - [x] Fazer armas
+- [ ] Fazer armaduras
 - [ ] Adicionar temas(diferentes padrões de cor)
 - [x] Adicionar SFX e ST
 - [ ] Adicionar sub-classes(especializações)

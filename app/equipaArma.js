@@ -11,11 +11,11 @@ function equiparArma() {
         <p class="texto">..O inimigo derrotado deixou:</p>
         <p class="texto">..${nomeArmaGerada} ${nomeQualidadeGerado}(1d${dadoAtaqueGerado} + ${bonusDanoGerado})
         <p class="texto">..Gostaria de usar essa arma?</p>
-        <p class="texto link" data-equipar>..EQUIPAR</p>
+        <p class="texto link" data-equipar-arma>..EQUIPAR</p>
     `
     principal.appendChild(telaEquipamento);
 
-    const botaoEquipar = document.querySelectorAll("[data-equipar]")
+    const botaoEquipar = document.querySelectorAll("[data-equipar-arma]")
     botaoEquipar.forEach( (elemento) => {
         elemento.addEventListener('click', () =>{
             dadoAtaquePlayer = dadoAtaqueGerado;

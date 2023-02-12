@@ -56,12 +56,13 @@ function geradorArma(){
         nomeQualidadeGerado = "nova";
         bonusDanoGerado = 2;
     }
-    else if(dadoGeraQualidade > 17 && dadoGeraQualidade <= 19){
-        nomeQualidadeGerado = "brilhante";
-        bonusDanoGerado = 3;
-    }
     else if(dadoGeraQualidade == 20 && nomeArmaGerada == "Machadinha"){
         nomeQualidadeGerado = "machado";
         bonusDanoGerado = 5;
     }
+    else if(dadoGeraQualidade > 17){
+        nomeQualidadeGerado = "brilhante";
+        bonusDanoGerado = 3;
+    }
+    
 }

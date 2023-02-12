@@ -49,7 +49,10 @@ function ataquePlayer() {
 function ataqueInimigo() {
     chance = Math.floor(Math.random() * 21) + Math.floor(dexInimigo/2)
     if(chance >= 8 + agiTotal){
-        danoInimigo = Math.ceil(Math.random() * dadoAtaqueInimigo) + forcaInimigo;
+        danoInimigo = Math.ceil(Math.random() * dadoAtaqueInimigo) + forcaInimigo - (Math.floor(Math.random() * dadoDefesa) - bonusDefesa);
+        if(danoInimigo < 0)
+            danoInimigo = 0;
+
         vidaAtual -= danoInimigo;
         if(vidaAtual < vidaTotal/4 && vidaAtual > 0)
             new Audio("../audio/vida_baixa.mp3").play();
@@ -71,7 +74,5 @@ function ataqueInimigo() {
     }
     
 }
-
-//verificar no ataque do player se ele tá morto. verificar no ataque do inimigo se o player morreu depois do ataque
 
 atacar();

@@ -13,7 +13,7 @@ function tomaPocao() {
             if(vidaAtual < vidaTotal && qtaPocao > 0){
                 qtaPocao -= 1;
                 new Audio("../audio/poção.mp3").play();
-                vidaAtual += Math.ceil(Math.random() * 6) *2;
+                vidaAtual += Math.ceil(Math.random() * 8) *2;
                 if(vidaAtual > vidaTotal)
                     vidaAtual = vidaTotal; 
                 calculaVida();
