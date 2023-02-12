@@ -52,7 +52,7 @@ function ataqueInimigo() {
     console.log(calcArmadura)
     if(chance >= 8 + agiTotal){
         danoInimigo = Math.ceil(Math.random() * dadoAtaqueInimigo) + forcaInimigo - calcArmadura;
-        if(danoInimigo < 0)
+        if(danoInimigo <= 0)
             danoInimigo = 1;
 
         vidaAtual -= danoInimigo;

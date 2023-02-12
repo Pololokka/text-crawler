@@ -9,8 +9,18 @@ O jogo seguirá uma estética visual toda baseada em antigos softwares(como Zork
 ### Home
 Página introdutória que fala brevemente sobre o Text Crawler
 
+![Página inicial](https://cdn.discordapp.com/attachments/621499803884584998/1074205436821131364/image.png)
+
+![Página inicial - tema EGA](https://cdn.discordapp.com/attachments/621499803884584998/1074205699200000020/image.png)
+
 ### Jogo
 Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontece nessa tela.
+
+![Página de jogo - tema light](https://cdn.discordapp.com/attachments/621499803884584998/1074205987499675668/image.png)
+
+![Página de jogo com setup pronto - tema gameboy](https://cdn.discordapp.com/attachments/621499803884584998/1074206506817441843/image.png)
+
+![Combate - tema zx spectrum](https://cdn.discordapp.com/attachments/621499803884584998/1074207419086950422/image.png)
 
 #### Roadmap
 
@@ -31,7 +41,7 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [x] Fazer gerador de inimigos
 - [x] Fazer armas
 - [x] Fazer armaduras
-- [ ] Adicionar temas(diferentes padrões de cor)
+- [x] Adicionar temas
 - [x] Adicionar SFX e ST
 - [ ] Adicionar sub-classes(especializações)
 - [ ] Adicionar ouro

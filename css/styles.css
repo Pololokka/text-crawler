@@ -19,8 +19,7 @@
 
 :root {
     --fonte: 'VT323', monospace;
-    
-    /*estilo 1*/
+
     --cor-fonte-1: #006400;
     --cor-fonte-hover-1: #008000;
     --cor-fundo-1: #000000;
@@ -31,10 +30,63 @@
     --font-menor: 1.2rem; 
 }
 
+.padrao{
+    --cor-fonte-1: #006400;
+    --cor-fonte-hover-1: #008000;
+    --cor-fundo-1: #000000;
+}
+
+.lighter{
+    --cor-fonte-1: #008000;
+    --cor-fonte-hover-1: #01af01;
+    --cor-fundo-1: #2b2b2b;
+}
+
+.amiga{
+    --cor-fonte-1: #ff40a9;
+    --cor-fonte-hover-1: #ff018d;
+    --cor-fundo-1: #3333ff;
+}
+
+.cga{
+    --cor-fonte-1: #008000;
+    --cor-fonte-hover-1: #01af01;
+    --cor-fundo-1: #6565ff;
+}
+
+.ega{
+    --cor-fonte-1: #a79b00;
+    --cor-fonte-hover-1: #dbcd00;
+    --cor-fundo-1: #3b3b3b;
+}
+
+.zx{
+    --cor-fonte-1: #666666;
+    --cor-fonte-hover-1: #888888;
+    --cor-fundo-1: #1a1a1a;
+}
+
+.gb{
+    --cor-fonte-1: #04815c;
+    --cor-fonte-hover-1: #9ad942;
+    --cor-fundo-1: #082c44;
+}
+
+.cabecalho__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.tema__container, .lista__container--tema{
+    display: flex;
+    gap: 0.5em;
+}
+
 body {
     background-color: var(--cor-fundo-1);
     color: var(--cor-fonte-1);
     font-family: var(--fonte);
+    color: yel;
 }
 
 .titulo {
@@ -71,3 +123,5 @@ body {
 	cursor: pointer;
 	outline: inherit;
 }
+
+
