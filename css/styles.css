@@ -36,7 +36,7 @@
     --cor-fundo-1: #000000;
 }
 
-.lighter{
+.light{
     --cor-fonte-1: #008000;
     --cor-fonte-hover-1: #01af01;
     --cor-fundo-1: #2b2b2b;
@@ -60,13 +60,13 @@
     --cor-fundo-1: #3b3b3b;
 }
 
-.zx{
+.zx-spectrum{
     --cor-fonte-1: #666666;
     --cor-fonte-hover-1: #888888;
     --cor-fundo-1: #1a1a1a;
 }
 
-.gb{
+.gameboy{
     --cor-fonte-1: #04815c;
     --cor-fonte-hover-1: #9ad942;
     --cor-fundo-1: #082c44;
@@ -124,4 +124,10 @@ body {
 	outline: inherit;
 }
 
+.texto-capitalize {
+    text-transform: capitalize;
+}
 
+.texto-upper {
+    text-transform: uppercase;
+}
