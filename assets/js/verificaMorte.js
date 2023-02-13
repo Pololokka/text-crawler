@@ -13,7 +13,7 @@ function chamaMorte() {
     `
     principal.appendChild(telaMortePlayer);
     playerMorto = true;
-    new Audio("../audio/morte.mp3").play();
+    new Audio("../assets/audio/morte.mp3").play();
 }
 
 function morteInimigo(){
@@ -44,13 +44,13 @@ function morteInimigo(){
     if(lootArma == 4){
         geradorArma();
         equiparArma();
-        new Audio("../audio/loot.mp3").play();
+        new Audio("../assets/audio/loot.mp3").play();
     }
 
     var lootArmadura = Math.floor(Math.random() * 6)
     if(lootArmadura == 5){
         geradorArmadura()
         equiparArmadura()
-        new Audio("../audio/loot.mp3").play();
+        new Audio("../assets/audio/loot.mp3").play();
     }
 }

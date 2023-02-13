@@ -7,7 +7,7 @@ function atacar(btnAtaque) {
      btnAtaque.addEventListener('click', () => {
         if(setupPronto && !playerMorto) {
             ataquePlayer();
-            new Audio("../audio/ataque.mp3").play();
+            new Audio("../assets/audio/ataque.mp3").play();
             
             if(vidaAtualInimigo > 0)
                 ataqueInimigo();
@@ -57,7 +57,7 @@ function ataqueInimigo() {
 
         vidaAtual -= danoInimigo;
         if(vidaAtual < vidaTotal/4 && vidaAtual > 0)
-            new Audio("../audio/vida_baixa.mp3").play();
+            new Audio("../assets/audio/vida_baixa.mp3").play();
         
         calculaVida();
 

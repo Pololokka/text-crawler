@@ -45,7 +45,7 @@ function atualizaLvl(){
         <p class="texto">..${nome}, ${generoJogo} ${classe}, subiu de nível!
     `
     principal.appendChild(telaNivel);
-    new Audio("../audio/level_up.mp3").play();
+    new Audio("../assets/audio/level_up.mp3").play();
 }
 
 function atualizaBonus(){
