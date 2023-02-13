@@ -8,7 +8,7 @@ O jogo seguirá uma estética visual toda baseada em antigos softwares(como Zork
 
 ## Deploy
 
-Você pode acessar este projeto (aqui!)[https://pololokka.github.io/text-crawler/] 
+Você pode acessar este projeto [aqui!](https://pololokka.github.io/text-crawler/) 
 
 ## Instruções
 
