@@ -44,6 +44,14 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 
 ![Combate - tema zx spectrum](https://cdn.discordapp.com/attachments/621499803884584998/1074207419086950422/image.png)
 
+## Sobre o desenvolvimento
+
+Utilizei este projeto para me aprofundar no conhecimento de JavaScript, que, apesar de eu já ter usado no passado, nunca fiz um projeto que utilizava majoritariamente esta tecnologia. Aprendi muito sobre a funcionalidade da linguagem, assim como bons usos em geral(como organização de pastas, divisão do código em arquivos diferentes, e etc). 
+
+Tive dificuldades em alguns pontos específicos, mas mais por uso da linguagem, pois sei a lógica de programação, então se tratou somente de uma questão de aprender mais sobre os comandos do JavaScript. 
+
+Um bom exemplo dessa dificuldade está no código de temas, onde, agora, o código é pequeno e reutilizável mesmo que eu introduza mais temas, mas antes dele ser refatorado, cada botão recebia um código específico, então, caso eu tivesse mantido isso, no futuro, sempre que um tema novo fosse feito, ele teria que ser feito também no código. Utilizando meus conhecimentos de programação, documentação, e colegas da área, consegui deixar o código como está hoje: fácil de entender, reutilizável, e modular.
+
 #### Roadmap
 
 - [x] Criar o index
