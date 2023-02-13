@@ -1,8 +1,30 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![technology - JS](https://img.shields.io/badge/technology-JavaScript-orange)
+
 # Text Crawler
 
 Um "jogo" simples feito completamente em texto. No "jogo" você poderá lutar contra criaturas, adquirir experiência, modificar seus atributos, equipar itens, e talvez gastar dinheiro na cidade.
 
 O jogo seguirá uma estética visual toda baseada em antigos softwares(como Zork, Ultima, e etc)
+
+## Deploy
+
+Você pode acessar este projeto (aqui!)[https://pololokka.github.io/text-crawler/] 
+
+## Instruções
+
+Para acessar o jogo, basta clicar nos links providenciados na home(para acessar a home, veja a seção "Deploy", acima).
+
+Uma vez no jogo, escolha seu nome, gênero, e na tela seguinte, escolha a classe do seu personagem. Você também pode deixar tudo em branco, para usar o personagem padrão(Astrash, a Bárbara). Uma vez que seu personagem estiver pronto, você será mandado para a tela principal onde todas as interações ocorrem.
+
+Após a fala do Pescador que te salvou de um terrível destino, você poderá atacar seu primeiro inimigo: o Dummy. Matando este inimigo, você sobe de nível, e ganhará pontos para distribuir entre seus atributos. Você também pode ganhar armas e armaduras, e as equipar, para que tenha uma melhor chance contra as criaturas que infestam o reino de Sveen. Caso sua vida esteja muito baixa, não se esqueça de tomar uma poção(mas cuidado para não ficar sem poções quando mais precisa!).
+
+Os inimigos são infinitos(no momento), e gerados aleatoriamente, então assim que um morrer, o próximo já estará no seu encalço!
+
+## Tecnologias
+
+* HTML
+* CSS
+* JavaScript
 
 ## Escopo do projeto
 
@@ -50,3 +72,29 @@ Página onde o jogo acontece de fato. Toda a parte interativa do projeto acontec
 - [ ] Adicionar equipamentos
 - [ ] Adicionar quests simples
 - [ ] Adicionar quest final
+
+## Licença
+
+Feito com a licença MIT
+
+MIT License
+
+Copyright (c) [2023] [Vitor_Bulbovas]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
